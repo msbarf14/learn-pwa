@@ -1,0 +1,32 @@
+.card_sm{
+    margin-top: -100px;
+    height: 300px;
+    width: 300px;
+}
+.header{
+    height: 30vh;
+    background-image: url('../assets/BANNER.jpg');
+    background-size: cover;
+}
+.card_d{
+    width: 137%;
+}
+
+@media only screen and (max-width: 600px) {
+    .card_d{
+        width:auto;
+        margin-left: -10px;
+    }
+    .card_sm{
+        margin-top: 10px;
+        margin-left: -10px;
+        height: auto;
+        width: auto;
+    }
+    .header{
+        display: none;
+        height: 30vh;
+        background-image: url('../assets/BANNER.jpg');
+        background-size: cover;
+    }
+  }

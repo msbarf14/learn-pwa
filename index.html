@@ -8,12 +8,15 @@
   <meta name="description" content="My first PWA"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
   <!-- Navigasi -->
-  <nav class="deep-purple accent-3" role="navigation">
+  <nav class="green" role="navigation">
     <div class="nav-wrapper container">
-      <a href="#" class="brand-logo" id="logo-container">PWA App</a>
+      <a href="#" class="brand-logo center" id="logo-container">freshStore</a>
       <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
       
       <ul class="topnav right hide-on-med-and-down"> </ul>
@@ -26,6 +29,7 @@
 
   <script src="js/materialize.min.js"></script>
   <script src="js/nav.js"></script>
+
   <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener("load", function() {
@@ -39,6 +43,6 @@
     } else {
         console.log("Service worker belum mendukung di browser ini");
     }
-  </script>;
+  </script>
 </body>
 </html>

@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Activate sidebar nav
     var elems = document.querySelectorAll(".sidenav");
     M.Sidenav.init(elems);
+    
     loadNav();
     
     function loadNav() {
@@ -73,4 +74,8 @@ document.addEventListener("DOMContentLoaded", function() {
     xhttp.open("GET", "nav.html", true);
     xhttp.send();
     }
+    
+    var slider = document.querySelectorAll('.slider');
+    M.Slider.init(slider);
+  
 });
